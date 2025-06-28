@@ -30,61 +30,61 @@ export const links = [
 export const projectsData = [
   {
     image: '/images/project-2.webp',
-    title: 'Next-starter',
+    title: 'Image-to-Text-Extractor',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
-    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
+      'uses image uploaded by user to- extract text from the image and translate it into any language for users convenience',
+    technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-aut', 'Prisma'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://image-text-extractor-seven.vercel.app/',
+      github: 'https://github.com/aayushmishramechatronics/ocr-translator',
+      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/ocr-translator',
     },
   },
   {
     image: '/images/project-1.webp',
-    title: 'SocialHub',
+    title: 'Streamify',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
+      'a full-stack video call and chat web-app for making new friends and socialising',
     technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://streamify-ochre.vercel.app/',
+      github: 'https://github.com/aayushmishramechatronics/streamify',
+      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/streamify',
     },
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'SCADA Trainee',
+    company: 'ONGC, Mumbai',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
+      'during this internship, I focused on configuring HMI Interfaces and integrated Field Instrumentation via PLCs using Modbus Protocol.',
+    period: '2025',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
   },
   {
-    title: 'Frontend developer & UI designer',
+    title: 'Frontend Developer & UI Designer',
     company: 'Freelancing, remote',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
+      'as a freelancer, I specialized in graphic design using Figma and Website Development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
+    period: '2024 - 2024',
     technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Frontend Developer Intern',
+    company: 'Rydeu, remote',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
+      'during my internship at Rydeu, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
     period: '2024',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
   },
   {
-    title: 'Frontend developer & UI designer',
+    title: 'Remote Front-End Developer',
     company: 'GeoScan, remote',
     description: (
       <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
+        at MIT, I collaborated with GIS specialists to
         build{' '}
         <Link
           className={cn(
