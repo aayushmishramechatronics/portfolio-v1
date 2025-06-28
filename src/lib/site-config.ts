@@ -26,6 +26,6 @@ export const siteConfig = {
     'Programming',
     'Tech Enthusiast',
   ],
-  url: env.SITE_URL || 'https://example.com',
+  url: env.SITE_URL || 'https://portfolio-aayush.vercel.app',
   googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
 };
