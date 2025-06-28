@@ -12,7 +12,7 @@ export const sendEmailAction = async ({ email, message }: TFormSchema) => {
     await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>',
       to: 'aayushmishra1105@gmail.com',
-      subject: 'Message from contact form',
+      subject: 'message from contact form',
       replyTo: email,
       text: `email: ${email} \nmessage: ${message}`,
     });
