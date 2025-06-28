@@ -57,17 +57,17 @@ export const Contact = () => {
         heading="Get In Touch"
         content={
           <>
-            Please contact me directly at{' '}
+            Please Contact Me Directly At{' '}
             <Button
               variant="link"
               className="text-muted-foreground hover:text-foreground h-fit p-0 font-medium underline transition-colors"
               asChild
             >
-              <Link href="mailto:skolakmichal1@gmail.com">
-                skolakmichal1@gmail.com
+              <Link href="mailto:aayushmishra1105@gmail.com">
+                aayushmishra1105@gmail.com
               </Link>
             </Button>{' '}
-            or through this form.
+            or Through This Form.
           </>
         }
       />
@@ -113,7 +113,7 @@ export const Contact = () => {
           </label>
           <textarea
             id="message"
-            placeholder="Hello! What's up?"
+            placeholder="Hello! What's Up?"
             {...register('message')}
             className={cn(
               'border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring mt-2 flex h-60 w-full resize-none rounded-md border px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50',
