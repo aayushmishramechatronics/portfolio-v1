@@ -22,15 +22,17 @@ export const About = () => {
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
           I&apos;m Aayush Mishra, I&apos;m a full-stack developer from India.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I&apos;m always
-          looking to learn new technologies.
+          I enjoy prototyping fast, debugging smarter, and scaling solutions 
+          that solve real world problems.
+        </p>
+        <p className="mb-4">
+          I explore systems that blend hardware with intelligence, and I&apos;m 
+          always experimenting whether it&apos;ms building CAD models, PCB designs, or 
+          even AI-integrated web apps, and automation using PLCs and microcontrollers.
+        </p>
+        <p className="mb-4">
+          I thrive on clean code, well-structured systems, and learning something new 
+          with every project I take on. Let’s build something awesome.
         </p>
       </div>
       <Skills />
