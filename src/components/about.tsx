@@ -21,18 +21,18 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Aayush Mishra, I&apos;m a full-stack developer from India.
+          I&apos;m Aayush Mishra, a full-stack developer from India.
           I enjoy prototyping fast, debugging smarter, and scaling solutions 
-          that solve real world problems.
+          that solve real-world problems.
         </p>
         <p className="mb-4">
           I explore systems that blend hardware with intelligence, and I&apos;m 
-          always experimenting whether it&apos;ms building CAD models, PCB designs, or 
-          even AI-integrated web apps, and automation using PLCs and microcontrollers.
+          always experimenting — whether it&apos;s building CAD models, designing PCBs, 
+          creating AI-integrated web apps, or automating workflows using PLCs and microcontrollers.
         </p>
-        <p className="mb-4">
+        <p>
           I thrive on clean code, well-structured systems, and learning something new 
-          with every project I take on. Let’s build something awesome.
+          with every project I take on. Let&apos;s build something awesome together!
         </p>
       </div>
       <Skills />
