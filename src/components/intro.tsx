@@ -40,11 +40,11 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="font-heading max-w-3xl text-4xl font-extrabold md:text-5xl"
       >
-        Namaste I&#39;m a{' '}
+        Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Full-Stack
+          Fullstack
         </span>{' '}
-        Developer Creating Modern Web Apps.
+        Developer creating modern web apps.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -54,8 +54,8 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-xl"
       >
-        a full-stack developer based in the India, i&#39;m passionate about
-        building modern web applications using front-end and back-end frameworks.
+        a fullstack developer based in the India, i&#39;m passionate about
+        building modern web applications using frontend and backend frameworks.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -67,7 +67,7 @@ export const Intro = () => {
       >
         <Button asChild size="lg">
           <Link href="#contact">
-            Get in touch <Icons.arrowRight className="ml-2 size-4" />
+            get in touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
