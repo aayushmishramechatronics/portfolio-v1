@@ -27,7 +27,7 @@ export const Projects = () => {
       >
         <SectionHeading
           heading="My Projects"
-          content="Projects I worked on. Each of them containing its own case study."
+          content="projects I worked on. each of them containing its own case study."
         />
       </motion.div>
       <div className="flex flex-col gap-7 md:flex-row">
