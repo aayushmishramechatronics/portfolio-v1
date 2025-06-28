@@ -7,7 +7,7 @@ export const Footer = () => {
       <Button variant="link" className="text-muted-foreground p-0 font-medium">
         <a href="https://github.com/aayushmishramechatronics">Aayush Mishra</a>
       </Button>
-      .all rights reserved.
+      .All Rights Reserved.
     </footer>
   );
 };
