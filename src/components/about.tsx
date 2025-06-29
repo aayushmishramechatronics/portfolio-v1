@@ -21,23 +21,24 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl px-4 text-center leading-7 sm:px-6">
         <p className="mb-4">
-          I&apos;m Aayush Mishra, a full-stack developer from India. I enjoy
+          I'm Aayush Mishra, a full-stack developer from India. I enjoy
           prototyping fast, debugging smarter, and scaling solutions that solve
           real-world problems.
         </p>
         <p className="mb-4">
-          I explore systems that blend hardware with intelligence, and I&apos;m
-          always experimenting - whether it&apos;s building CAD models, designing
-          PCBs, creating AI-integrated web apps, or automating workflows using
-          PLCs and microcontrollers.
+          I explore systems that blend hardware with intelligence, and I'm
+          always experimenting — whether it's building CAD models,
+          designing PCBs, creating AI-integrated web apps, or automating
+          workflows using PLCs and microcontrollers.
         </p>
         <p className="mb-4">
           I thrive on clean code, well-structured systems, and learning
-          something new with every project I take on. Let&apos;s build something
-          awesome together.
+          something new with every project I take on. Let's build something
+          awesome together!
         </p>
       </div>
       <Skills />
     </motion.section>
   );
 };
+
