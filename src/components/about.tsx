@@ -25,16 +25,10 @@ export const About = () => {
           prototyping fast, debugging smarter, and scaling solutions that solve
           real-world problems.
         </p>
-        <p className="mb-4">
-          I explore systems that blend hardware with intelligence, and I&apos;m
-          always experimenting — whether it&apos;s building CAD models, designing
-          PCBs, creating AI-integrated web apps, or automating workflows using
-          PLCs and microcontrollers.
-        </p>
-        <p className="mb-4">
+        <p>
           I thrive on clean code, well-structured systems, and learning
           something new with every project I take on. Let&apos;s build something
-          awesome together!
+          awesome together.
         </p>
       </div>
       <Skills />
