@@ -30,14 +30,14 @@ export const links = [
 export const projectsData = [
   {
     image: '/images/project-2.webp',
-    title: 'Streamify',
+    title: 'Next-starter',
     description:
-      'A fullstack video conferencing and chat web app, hosted locally with peer-to-peer functionality.',
+      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
     technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
     links: {
-      preview: 'https://streamify-ochre.vercel.app',
-      github: 'https://github.com/aayushmishramechatronics/streamify',
-      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/streamify',
+      preview: 'https://next-starter-skolaczk.vercel.app',
+      github: 'https://github.com/Skolaczk/next-starter',
+      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
     },
   },
   {
