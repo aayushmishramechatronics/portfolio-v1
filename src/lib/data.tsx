@@ -32,59 +32,66 @@ export const projectsData = [
     image: '/images/project-2.webp',
     title: 'Streamify',
     description:
-      'a fullstack video conferencing and chat web app and is hosted locally',
+      'A fullstack video conferencing and chat web app, hosted locally with peer-to-peer functionality.',
     technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
     links: {
       preview: 'https://streamify-ochre.vercel.app',
       github: 'https://github.com/aayushmishramechatronics/streamify',
-      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/streamify',
+      githubApi:
+        'https://api.github.com/repos/aayushmishramechatronics/streamify',
     },
+    badges: ['AI', 'WebRTC', 'P2P'],
   },
   {
     image: '/images/project-1.webp',
     title: 'PrepWise AI',
     description:
-      'a fullstack web based AI voice agent to help you prepare for interviews',
-    technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
+      'An AI-powered voice-based fullstack web app to simulate interview experiences.',
+    technologies: ['Next.js', 'TypeScript', 'Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://prepwise-beta.vercel.app/',
       github: 'https://github.com/aayushmishramechatronics/prepwise-ai',
-      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/prepwise-ai',
+      githubApi:
+        'https://api.github.com/repos/aayushmishramechatronics/prepwise-ai',
     },
+    badges: ['AI', 'Voice Interface', 'Interview'],
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'SCADA-Trainee',
+    title: 'SCADA Trainee',
     company: 'ONGC, Mumbai IN',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
+      'Configured HMI Interfaces and Integrated Field Instrumentation via PLCs using Modbus Protocol. Gained exposure to SCADA Architecture, Telemetry, and Industrial Communication Standards.',
     period: '2025',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
+    technologies: ['PLC', 'C++', 'C'],
+    badges: ['SCADA', 'Automation'],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    title: 'Technical Content Writer & Freelancer',
+    company: 'Freelancing, Remote',
     description:
-      'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
-    technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
+      'Writing and Reviewing Technical Articles based on variety of topics like Embedded C, Typescript, Javascript and also Freelancing in Full-Stack Web Development.',
+    period: '2025',
+    technologies: ['Next.js', 'TypeScript', 'JavaScript', 'Tailwind'],
+    badges: ['Content Writing', 'Freelance'],
   },
   {
-    title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    title: 'Frontend Developer Intern',
+    company: 'Rydeu, Remote',
     description:
-      'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
+      'Collaborated with senior engineers in an agile team to enhance user interfaces using React and Next.js.',
     period: '2024',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
+    badges: ['Internship', 'Agile'],
   },
   {
-    title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
+    title: 'UG Researcher',
+    company: 'MIT Manipal, Remote',
     description: (
       <>
-        At GeoScan, I collaborate with frontend, backend, and GIS specialists to
+        At MIT, I collaborated with professors and post-graduates to research and
         build{' '}
         <Link
           className={cn(
@@ -96,27 +103,31 @@ export const experiencesData = [
         >
           geoscan-app.com
         </Link>{' '}
-        — a platform for generating real estate reports. I’m responsible for
+        — a platform for generating ground radar reports. I&apos;m responsible for
         developing and maintaining the frontend, as well as designing UI/UX to
         ensure a clear and intuitive user experience.
       </>
     ),
-    period: '2024 - present',
+    period: '2024',
     technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
+    badges: ['Research', 'GIS'],
   },
 ] as const;
 
 export const skillsData = [
-  { icon: <Icons.html className="size-12" /> },
-  { icon: <Icons.css className="size-12" /> },
-  { icon: <Icons.sass className="size-12" /> },
-  { icon: <Icons.tailwind className="size-12" /> },
-  { icon: <Icons.javascript className="size-12" /> },
-  { icon: <Icons.typescript className="size-12" /> },
-  { icon: <Icons.react className="size-12" /> },
-  { icon: <Icons.redux className="size-12" /> },
-  { icon: <Icons.nextjs className="size-12" /> },
-  { icon: <Icons.nestjs className="size-12" /> },
-  { icon: <Icons.prisma className="size-12" /> },
-  { icon: <Icons.docker className="size-12" /> },
+  { icon: <Icons.html className="size-12" />, label: 'HTML' },
+  { icon: <Icons.css className="size-12" />, label: 'CSS' },
+  { icon: <Icons.sass className="size-12" />, label: 'SASS' },
+  { icon: <Icons.tailwind className="size-12" />, label: 'Tailwind CSS' },
+  { icon: <Icons.javascript className="size-12" />, label: 'JavaScript' },
+  { icon: <Icons.typescript className="size-12" />, label: 'TypeScript' },
+  { icon: <Icons.react className="size-12" />, label: 'React' },
+  { icon: <Icons.redux className="size-12" />, label: 'Redux' },
+  { icon: <Icons.nextjs className="size-12" />, label: 'Next.js' },
+  { icon: <Icons.nestjs className="size-12" />, label: 'Nest.js' },
+  { icon: <Icons.prisma className="size-12" />, label: 'Prisma' },
+  { icon: <Icons.docker className="size-12" />, label: 'Docker' },
+  { icon: <Icons.c className="size-12" />, label: 'C' },
+  { icon: <Icons.cpp className="size-12" />, label: 'C++' },
+  { icon: <Icons.plc className="size-12" />, label: 'PLC' },
 ] as const;
