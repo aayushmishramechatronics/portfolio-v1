@@ -67,7 +67,7 @@ export const Intro = () => {
       >
         <Button asChild size="lg">
           <Link href="#contact">
-            get in touch <Icons.arrowRight className="ml-2 size-4" />
+            Get in Touch <Icons.arrowRight className="ml-2 size-4" />
           </Link>
         </Button>
         <Button variant="outline" size="lg" className="hidden sm:flex" asChild>
