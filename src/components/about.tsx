@@ -30,7 +30,7 @@ export const About = () => {
           always experimenting — whether it&apos;s building CAD models, designing PCBs, 
           creating AI-integrated web apps, or automating workflows using PLCs and microcontrollers.
         </p>
-        <p>
+        <p className="mb-4">
           I thrive on clean code, well-structured systems, and learning something new 
           with every project I take on. Let&apos;s build something awesome together!
         </p>
