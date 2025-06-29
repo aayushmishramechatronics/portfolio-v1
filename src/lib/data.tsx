@@ -30,37 +30,37 @@ export const links = [
 export const projectsData = [
   {
     image: '/images/project-2.webp',
-    title: 'Next-starter',
+    title: 'Streamify',
     description:
-      'A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more.',
+      'a fullstack video conferencing and chat web app built using MERN stack and is hosted locally',
     technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
     links: {
-      preview: 'https://next-starter-skolaczk.vercel.app',
-      github: 'https://github.com/Skolaczk/next-starter',
-      githubApi: 'https://api.github.com/repos/Skolaczk/next-starter',
+      preview: 'https://streamify-ochre.vercel.app',
+      github: 'https://github.com/aayushmishramechatronics/streamify',
+      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/streamify',
     },
   },
   {
     image: '/images/project-1.webp',
-    title: 'SocialHub',
+    title: 'PrepWise AI',
     description:
-      'SocialHub is a next-generation social media app developed using Next.js and Nest.js.',
+      'a fullstack web based AI Voice Agent to help you prepare for interviews',
     technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
     links: {
-      preview: 'https://socialhub-ms.vercel.app/',
-      github: 'https://github.com/Skolaczk/SocialHub',
-      githubApi: 'https://api.github.com/repos/Skolaczk/SocialHub',
+      preview: 'https://prepwise-beta.vercel.app/',
+      github: 'https://github.com/aayushmishramechatronics/prepwise-ai',
+      githubApi: 'https://api.github.com/repos/aayushmishramechatronics/prepwise-ai',
     },
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    title: 'SCADA Trainee',
+    company: 'ONGC, Mumbai IN',
     description:
       'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
+    period: '2025',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
   },
   {
