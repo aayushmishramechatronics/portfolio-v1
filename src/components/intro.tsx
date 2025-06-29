@@ -42,7 +42,7 @@ export const Intro = () => {
       >
         Hi I&#39;m a{' '}
         <span className="bg-gradient-to-r from-rose-700 to-pink-600 bg-clip-text text-transparent">
-          Fullstack
+          Full-Stack
         </span>{' '}
         Developer creating modern web apps.
       </motion.h1>
