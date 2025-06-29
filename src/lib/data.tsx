@@ -32,7 +32,7 @@ export const projectsData = [
     image: '/images/project-2.webp',
     title: 'Streamify',
     description:
-      'a fullstack video conferencing and chat web app built using MERN stack and is hosted locally',
+      'a fullstack video conferencing and chat web app and is hosted locally',
     technologies: ['Next.js', 'Tailwind', 'Shadcn/ui', 'Next-auth', 'Prisma'],
     links: {
       preview: 'https://streamify-ochre.vercel.app',
@@ -44,7 +44,7 @@ export const projectsData = [
     image: '/images/project-1.webp',
     title: 'PrepWise AI',
     description:
-      'a fullstack web based AI Voice Agent to help you prepare for interviews',
+      'a fullstack web based AI voice agent to help you prepare for interviews',
     technologies: ['Next.js', 'TypeScript', ' Nest.js', 'Tailwind', 'Prisma'],
     links: {
       preview: 'https://prepwise-beta.vercel.app/',
@@ -56,7 +56,7 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'SCADA Trainee',
+    title: 'SCADA-Trainee',
     company: 'ONGC, Mumbai IN',
     description:
       'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
