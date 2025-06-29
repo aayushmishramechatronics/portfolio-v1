@@ -72,7 +72,7 @@ export const experiencesData = [
     title: 'Technical Content Writer & Freelancer',
     company: 'Freelancing, Remote',
     description:
-      'Writing and Reviewing Technical Articles based on variety of topics like Embedded C, Typescript, Javascript and also Freelancing in Full-Stack Web Development.',
+      'Writing and Reviewing Technical Articles based on variety of topics like Embedded C, Typescript, Javascript, and also Freelancing in Full-Stack Web Development.',
     period: '2025',
     technologies: ['Next.js', 'TypeScript', 'JavaScript', 'Tailwind'],
     badges: ['Content Writing', 'Freelance'],
@@ -91,8 +91,8 @@ export const experiencesData = [
     company: 'MIT Manipal, Remote',
     description: (
       <>
-        At MIT, I collaborated with professors and post-graduates to research and
-        build{' '}
+        At MIT, I collaborated with professors and post-graduates to research
+        and build{' '}
         <Link
           className={cn(
             buttonVariants({ variant: 'link' }),
