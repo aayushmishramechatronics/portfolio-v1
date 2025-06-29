@@ -57,7 +57,7 @@ export const projectsData = [
 export const experiencesData = [
   {
     title: 'Web developer intern',
-    company: 'WEB-BOX, Tarnobrzeg PL',
+    company: 'ONGC, Mumbai IN',
     description:
       'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
     period: '2025',
@@ -73,7 +73,7 @@ export const experiencesData = [
   },
   {
     title: 'Frontend developer intern',
-    company: 'Chop-chop, remote',
+    company: 'Rydeu, Remote',
     description:
       'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
     period: '2024',
