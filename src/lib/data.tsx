@@ -60,7 +60,7 @@ export const experiencesData = [
     company: 'WEB-BOX, Tarnobrzeg PL',
     description:
       'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
-    period: '2023',
+    period: '2025',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
   },
   {
@@ -68,7 +68,7 @@ export const experiencesData = [
     company: 'Freelancing, remote',
     description:
       'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
-    period: '2023 - 2024',
+    period: '2024',
     technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
   },
   {
@@ -101,7 +101,7 @@ export const experiencesData = [
         ensure a clear and intuitive user experience.
       </>
     ),
-    period: '2024 - present',
+    period: '2024 - Present',
     technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
   },
 ] as const;
