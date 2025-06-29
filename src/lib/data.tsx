@@ -40,7 +40,6 @@ export const projectsData = [
       githubApi:
         'https://api.github.com/repos/aayushmishramechatronics/streamify',
     },
-    badges: ['AI', 'WebRTC', 'P2P'],
   },
   {
     image: '/images/project-1.webp',
@@ -54,7 +53,6 @@ export const projectsData = [
       githubApi:
         'https://api.github.com/repos/aayushmishramechatronics/prepwise-ai',
     },
-    badges: ['AI', 'Voice Interface', 'Interview'],
   },
 ] as const;
 
@@ -66,7 +64,6 @@ export const experiencesData = [
       'Configured HMI Interfaces and Integrated Field Instrumentation via PLCs using Modbus Protocol. Gained exposure to SCADA Architecture, Telemetry, and Industrial Communication Standards.',
     period: '2025',
     technologies: ['PLC', 'C++', 'C'],
-    badges: ['SCADA', 'Automation'],
   },
   {
     title: 'Technical Content Writer & Freelancer',
@@ -75,7 +72,6 @@ export const experiencesData = [
       'Writing and Reviewing Technical Articles based on variety of topics like Embedded C, Typescript, Javascript, and also Freelancing in Full-Stack Web Development.',
     period: '2025',
     technologies: ['Next.js', 'TypeScript', 'JavaScript', 'Tailwind'],
-    badges: ['Content Writing', 'Freelance'],
   },
   {
     title: 'Frontend Developer Intern',
@@ -84,15 +80,13 @@ export const experiencesData = [
       'Collaborated with senior engineers in an agile team to enhance user interfaces using React and Next.js.',
     period: '2024',
     technologies: ['Next.js', 'React', 'TypeScript', 'Tailwind'],
-    badges: ['Internship', 'Agile'],
   },
   {
     title: 'UG Researcher',
     company: 'MIT Manipal, Remote',
     description: (
       <>
-        At MIT, I collaborated with professors and post-graduates to research
-        and build{' '}
+        At MIT, I collaborated with professors and post-graduates to research and build{' '}
         <Link
           className={cn(
             buttonVariants({ variant: 'link' }),
@@ -104,13 +98,12 @@ export const experiencesData = [
           geoscan-app.com
         </Link>{' '}
         — a platform for generating ground radar reports. I&apos;m responsible for
-        developing and maintaining the frontend, as well as designing UI/UX to
-        ensure a clear and intuitive user experience.
+        developing and maintaining the frontend, as well as designing UI/UX
+        to ensure a clear and intuitive user experience.
       </>
     ),
     period: '2024',
     technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Supabase', 'Leaflet'],
-    badges: ['Research', 'GIS'],
   },
 ] as const;
 
@@ -127,4 +120,7 @@ export const skillsData = [
   { icon: <Icons.nestjs className="size-12" />, label: 'Nest.js' },
   { icon: <Icons.prisma className="size-12" />, label: 'Prisma' },
   { icon: <Icons.docker className="size-12" />, label: 'Docker' },
+  { icon: <Icons.c className="size-12" />, label: 'C' },
+  { icon: <Icons.cpp className="size-12" />, label: 'C++' },
+  { icon: <Icons.plc className="size-12" />, label: 'PLC' },
 ] as const;
