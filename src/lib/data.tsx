@@ -56,7 +56,7 @@ export const projectsData = [
 
 export const experiencesData = [
   {
-    title: 'Web developer intern',
+    title: 'SCADA Trainee',
     company: 'ONGC, Mumbai IN',
     description:
       'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
@@ -64,7 +64,7 @@ export const experiencesData = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
   },
   {
-    title: 'Frontend developer & UI designer',
+    title: 'Fullstack Developer & Technical Writer',
     company: 'Freelancing, Remote',
     description:
       'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
