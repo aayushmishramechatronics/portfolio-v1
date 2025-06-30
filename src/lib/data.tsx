@@ -65,7 +65,7 @@ export const experiencesData = [
   },
   {
     title: 'Frontend developer & UI designer',
-    company: 'Freelancing, remote',
+    company: 'Freelancing, Remote',
     description:
       'As a freelancer, I specialized in graphic design using Figma and website development using Next.js with Sanity CMS. I undertook projects independently, from design conceptualization to final implementation, ensuring client satisfaction.',
     period: '2024',
@@ -81,7 +81,7 @@ export const experiencesData = [
   },
   {
     title: 'Frontend developer & UI designer',
-    company: 'GeoScan, remote',
+    company: 'GeoScan, Remote',
     description: (
       <>
         At GeoScan, I collaborate with frontend, backend, and GIS specialists to
