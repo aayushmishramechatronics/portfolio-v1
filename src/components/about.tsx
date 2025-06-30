@@ -23,8 +23,12 @@ export const About = () => {
         <p className="mb-4">
           I&apos;m Aayush Mishra, a full-stack developer from India. I enjoy
           prototyping fast, debugging smarter, and scaling solutions that solve
-          real-world problems. I thrive on clean code, well-structured systems, 
-          and learning something new with every project I take on.
+          real-world problems. I explore systems that blend hardware with
+          intelligence, and I&apos;m always experimenting — whether it&apos;s
+          building CAD models, designing PCBs, creating AI-integrated web apps,
+          or automating workflows using PLCs and microcontrollers. I thrive on
+          clean code, well-structured systems, and learning something new with
+          every project I take on.
         </p>
         <p>
           I&apos;m open to collaboration, freelancing, or full-time
