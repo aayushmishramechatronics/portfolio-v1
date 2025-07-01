@@ -59,7 +59,7 @@ export const experiencesData = [
     title: 'SCADA Trainee',
     company: 'ONGC, Mumbai IN',
     description:
-      'During this internship, I focused on two key areas: creating Wordpress plugins and managing website content, plugins, and settings.',
+      'during this internship, I focused on two key areas: training on operating PLC and learning its ladder logic while also learning about human machine interface.',
     period: '2025',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Wordpress'],
   },
@@ -72,7 +72,7 @@ export const experiencesData = [
     technologies: ['Next.js', 'TypeScript', 'Sanity CMS', 'Tailwind'],
   },
   {
-    title: 'Frontend developer intern',
+    title: 'Frontend Developer Intern',
     company: 'Rydeu, Remote',
     description:
       'During my internship at Chop-Chop, I collaborated with an experienced IT team, focusing on tasks in Next.js. This experience provided valuable insights into teamwork and advanced my proficiency in Next.js.',
